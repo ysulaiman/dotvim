@@ -135,6 +135,9 @@ set cursorline
 " Activate the wild menu.
 set wildmenu
 
+" Set <leader> to ,
+let mapleader = ","
+
 " Break long lines at a word boundary.
 set linebreak
 
@@ -160,6 +163,9 @@ set grepprg=grep\ -nH\ $*
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
 " ~~~~
+
+" Shortcut to rapidly toggle NERDTree.
+nmap <leader>n :NERDTreeToggle<CR>
 
 " ~~~~
 " Inspired by vimcasts.org
